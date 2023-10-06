@@ -1,0 +1,92 @@
+Web means:
+A. LAN
+B. WAN
+C. corporate network
+D. Computer network of an organization with internet protocol
+ANSWER: B
+Find the available service in WWW a-> Encryption b-> HTTP c-> HTML d-> Firewall
+A. I and II
+B. II and III
+C. III and IV
+D. I and IV
+ANSWER: A
+Web page in WWW are?
+A. Created using HTML
+B. Linking many web pages
+C. Residing in many computers
+D. HTML Pages in many computer are linked
+ANSWER: A
+Website properties: i-> A meaningful address ii-> Help and Search Facilities iii-> Linking to related sites iv-> Option for user feedback v-> Web Page hosting on Mainframe Server 
+A. i, ii, iii
+B. i, ii, iii, iv
+C. i, ii, iii, iv, v
+D. i, ii, iii, v
+ANSWER: B
+In Program, what is the use of a search engine: 
+A. Web Pages
+B. specified index terms
+C. information using specified search terms
+D. For information
+ANSWER: C
+Which of the following HTML code is valid?
+A. <font colour=”red”>
+B. <font color=”red”>
+C. <red><font>
+D. All the above are style tags
+ANSWER: B
+Which attribute is used to name an element uniquely?
+A. Class
+B. Id
+C. Dot
+D. All the above
+ANSWER: B
+How to set left margin using CSS property?
+A. Indent
+B. Padding-left
+C. Margin-left
+D. Left
+ANSWER: C
+Property to create hyperlink without underline?
+A. a {underline:hidden;}
+B. a {text-decoration:none;}
+C. a {text-decoration:no-underline;}
+D. a {decoration:hidden;}
+ANSWER: B
+Identify the Valid CSS pseudo classes :
+A. Selector: pseudo-class{property: value}
+B. Selector.class: pseudo-class{property:value}
+C. Both A and B
+D. None of the above
+ANSWER: A
+In HTML, how to display the linked page in a new window?
+A. <a href=”http://www.google.com” target=”blank”>Click Here</a>
+B. <a href=”http://www.google.com” target=”_blank”>Click Here</a>
+C. <a href=”http://www.google.com” target=”#blank”>Click Here</a>
+D. <a href=”http://www.google.com” target=”@blank”>Click Here</a>
+ANSWER: B
+What will be result of following javascript function <script type="text/javascript"> var name = "Home"; function DisplayInfo() { var name = "Sample"; document.write(name); }  </script>
+A. Home
+B. Sample
+C. Error
+D. None of the above
+ANSWER: B
+What will be result of following javascript function? <script type="text/javascript"> var n1 = "Scripting Language"; function Displayname () { var n2 = "Javascript"; (n1! = ""? document.write(n2):document.write(n1)); } </script>
+A. Scripting Language
+B. Javascript
+C. Javascript Error
+D. Nothing will happen
+ANSWER: B
+JavaScript cannot do?
+A. React to events.
+B. Manipulate HTML elements.
+C. Validate data.
+D. Create cookies.
+E. All of the above are correct.
+ANSWER: E
+Not true about Javascript?
+A. Scripting language.
+B. Interactivity to HTML pages.
+C. Lightweight programming language.
+D. Preliminary compilation execution.
+E. Embedded directly into HTML pages.
+ANSWER: D

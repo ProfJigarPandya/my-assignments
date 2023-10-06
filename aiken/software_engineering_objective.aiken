@@ -1,0 +1,30 @@
+Identify an incorrect statement with regards to testing:  a-> Acceptance Test Plan and System Test Plan are written after high level design b-> System testing is a type of black box testing c-> Acceptance testing is done in customer’s environment d-> Integration testing is carried out after system testing
+A. Options ‘a’ and ‘c’ are true
+B. Options ‘b’ and ‘c’ and true
+C. Options ‘a’, ‘b’ and ‘d’ are true
+D. Options ‘a’ and ‘d’ are true
+ANSWER: C
+Customer is an owner of multinational retail company and wants your company to develop an online portal for selling its products. He wants to get it developed in small iterations so that he can control the scope and look & feel as per market trends. Customer also wants flexibility to change requirements during development of the project. Which software development approach would be appropriate in scenario given above? 
+A. Waterfall
+B. Prototype
+C. Spiral
+D. Agile
+ANSWER: D
+Which statement is false with respect to Requirement analysis 
+A. Functional requirements describe the overall attributes of the system. 
+B. Scalability, performance, interoperability are examples of non-functional requirements.
+C. Business needs are captured in functional requirements
+D. Both functional and non-functional requirements should be captured in SRS.
+ANSWER: A
+Company ABC has delivered its new page layout software to its Beta customers who are supposed to use it for 3 months and give feedback to company ABC. Most of the beta customers have come back with a complaint regarding system becoming slow after continuous usage of the software for more than a month. They have shared in their bug Software Engineering report that while software functions well in first 25-30 days, it starts becoming extremely slow after that, and that the system needs to be shut down and restarted in order to continue its usage. Identify the type of performance testing for the scenario given above, that should have been carried out before releasing the software to its Beta customers:
+A. Load testing
+B. Stress testing
+C. Endurance testing
+D. Spike testing
+ANSWER: C
+During testing phase of a web portal, following bug has been logged by the tester for UXD “It is difficult to locate the ‘logout’ button for a novice user.” Which facet of user experience is in focus here? 
+A. Useful
+B. Desirable
+C. Findable
+D. Credible
+ANSWER: B

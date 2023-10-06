@@ -1,0 +1,114 @@
+Which of the given algorithm design technique may have overlapping sub-problems?
+A. Divide and conquer
+B. Greedy approach
+C. Dynamic programming
+D. Brute Force Approach
+ANSWER: C
+Choice of each step in a greedy approach is done based on  i) it must be feasible ii) it must be locally optimal iii) it must be irrevocable
+A. only (i)
+B. i and iii
+C. ii and iii
+D. i , ii and iii only
+ANSWER: D
+Which of the given statements are TRUE? i. String objects are immutable ii. local variables are set to default values iii. Instance variables are stored in Heap memory iv. Explicit typecasting is required during narrowing conversion 
+A. All are TRUE
+B. Only i and iii
+C. Only i,iii and iv
+D. Only i, ii and iii
+ANSWER: C
+Which is NOT a Pre-requisite for code Review?
+A. The code should compile and execute with zero errors and warnings
+B. The code must be readable
+C. The source file should contain proper documentation
+D. System testing should have been completed
+ANSWER: D
+What would be the output of the following code:- package a; public class External{ int Number1; protected int Number2; public void display() { System.out.println("Number="+ Number1); }}   package b; import a.External; public class Internal extends External{ public static void main(String args[]) { Internal obj=new Internal(); obj. Number1=10; obj. Number2=obj. Number1*2; System.out.println(obj. Number1); } }
+A. Compilation Error as Number1 accessed in different package
+B. Classes in different packages cannot be inherited
+C. Will print 20
+D. Will print 0, 10
+ANSWER: A
+Which is NOT true about static?
+A. A static method can access only static variables
+B. A static method can only call other static method
+C. A static member can be accessed by using the class name
+D. static methods can be overridden in the derived class
+ANSWER: D
+What would the output of this Code snippet? class Figure{ public void display() { System.out.println("Inside class Figure"); }  } public class ChildFigure extends Figure{ public void display() { System.out.println("Inside child of Figure"); } public static void main(String args[]) { Figure ref = new Figure(); ChildFigure obj=(ChildFigure) ref; obj.display(); } } 
+A. Will display 'Inside class Figure'
+B. will display 'Inside child of Figure'
+C. Runtime exception will be displayed
+D. Compile time error due to base class reference assigned to subclass reference
+ANSWER: C
+What would be the output of the following code:- public class CheckStaticBlock{ static int Number=10; static{ Number +=10;} public static void main(String args[]) { System.out.println("Number = "+ Number); } static{ Number /=5;} }
+A. Will give compile time error as multiple static blocks cannot exist
+B. Code compiles fine and execution of code produces output x=10
+C. Code compiles fine and execution of code produces output x=4
+D. Code compiles fine and execution of code produces output x=20
+ANSWER: C
+How many String objects are tend to be garbage collected with the execution the following Code ? public class DemoGarbage{ public static void main(String args[]) { String check=new String("World"); String one=new String("Happy"); String two="Happy"; one=check; check=null; } } 
+A. 0
+B. 1
+C. 2
+D. 3
+ANSWER: B
+What would be the output of the following code:- public class DemoClass{ private static int Number=10; public static void main(String args[]) { DemoClass objOne=new DemoClass(); objOne. Number ++; DemoClass objTwo=new DemoClass(); objTwo. Number ++; DemoClass. Number ++; objTwo=new DemoClass(); objTwo. Number ++; System.out.println("X is: "+ Number); } }
+A. Will print X is 14
+B. compile time error as main function is making static reference to a private variable
+C. Will print X is 13
+D. Will print X is 11
+ANSWER: A
+What would be the output of the following code:-  public class OverloadingDemo{ public void functionFirst(float a, int b) { System.out.println("Inside float");} public void functionFirst(int a , float b) { System.out.println("Inside int");} public void functionFirst(double a , double b) { System.out.println("Inside double");} public static void main(String args[]) { OverloadingDemo objOne=new OverloadingDemo(); objOne.functionFirst(10.0,20); //1 objOne.functionFirst(10.0f,20); //2 objOne.functionFirst(20,20); //3  } }
+A. Code will compile successfully
+B. Code will not compile because of line 2
+C. Code will not compile because of line 3
+D. Code will not compile because of line 4
+ANSWER: C
+Which of them is NOT a widening conversion in type casting? 
+A. char to a short
+B. byte to a short
+C. char to a long
+D. short to an int
+ANSWER: A
+What would be the output of the following code:- class Figure{ int a=50; public void display() { System.out.println("a="+a); } } public class ChildFigure extends Figure{ int a=40; public static void main(String args[]) { Figure ref = new ChildFigure(); System.out.println("a="+ref.a); } } 
+A. Will print a=50
+B. Will print a=40
+C. Compile time error as the child and base class cannot have variables with same name
+D. Run time error
+ANSWER: B
+What would be the output of the following code:-  package a; public class External{ int a; protected int b; public void display()  { System.out.println("a="+a); } } package b; import a.External; public class Internal extends External{  public static void main(String args[]) { Internal obj=new Internal(); obj.a=10; obj.b=obj.a*2; System.out.println(obj.b);} } 
+A. Classes belonging to different packages cannot inherit from one another
+B. Will print 20
+C. Compile time error 
+D. Runtime error
+ANSWER: C
+What would be the output of the following code:- class Customer{ static{ System.out.println("Customer static"); } Customer() { System.out.println("Constructor"); } } class StaticBlock { static { System.out.println("Main static"); } public static void main(String args[]){ Customer custObj1; } }
+A. Main static Customer static Constructor
+B. Main static
+C. Compilation error due to object not created for Customer class
+D. Customer static Main static Constructor 
+ANSWER: B
+What would be the output of the following code:- abstract class Example{ void disp(){ System.out.println("disp in Example"); } public abstract void display(); } abstract class Example1 extends Example{ public void display1(){ System.out.println("display in Example1"); } } class Example2 extends Example1{ public void display(){ System.out.println("display in Example2"); } } class Demo7{ public static void main(String args[]){ Example1 obj=new Example2(); obj.display(); obj.display1(); obj.disp(); } }
+A. display in Example2 display in Example1 disp in Example
+B. display in Example1 disp in Example 
+C. Compilation error due to invocation of obj.display1()
+D. Compilation error due to invocation of obj.disp()
+ANSWER: A
+What would be the output of the following code:- class Addition{ private int result; void add(int numOne,int numTwo,int numThree){  result=numOne+numTwo+numThree; System.out.println("Addition of three Numbers:"+result); }   void add(float a, float b){ System.out.println("float result=" + (a+b)); } void add(double a, double b){ System.out.println("double result=" + (a+b)); } } class MethodOverloading{ public static void main(String args[]){ Addition obj=new Addition(); obj.add(10,20); obj.add(10,20,30); obj.add(2.4f, 3.5f); } } 
+A. float result=30.0  Addition of three Numbers:60 float result=5.9 
+B. Addition of three Numbers:60 float result=5.9 double result=5.900000000
+C. Compilation error due to invocation of a add(10,20) with no method definition  
+D. float result=30.0 Addition of three Numbers:60 double result=5.900000000
+ANSWER: A
+Mr. Kumar was driving a car and he was enjoying the trip along with his family members. Suddenly, he heard the burst sound and car started to wobble. Immediately he applied the brake and stopped the car carefully in the roadside. He went down from the car to check what happened and he found that one of the front wheels is punctured. Now, what is the relationship between car and wheels? 
+A. Uses-A
+B. Is-A
+C. Has-A
+D. All the above
+ANSWER: C
+Which statement is VALID?
+A. Constructors can be static
+B. All the methods present inside the abstract class are abstract by default
+C. Some of the methods present inside an interface can be private
+D. Private methods should not be marked with abstract modifier
+ANSWER: D

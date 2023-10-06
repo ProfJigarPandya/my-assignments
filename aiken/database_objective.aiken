@@ -1,0 +1,90 @@
+An employee's monthly net salary is based on his gross salary and deductions. Here net salary is: 
+A. Key attribute
+B. Multivalued attribute
+C. Derived attribute
+D. Composite attribute
+ANSWER: C
+Which of the following correlated sub-query will retrieve the names of all departments that have at least one employee? 
+A. SELECT DISTINCT Name FROM Dept D WHERE EXISTS (SELECT E.DeptNO FROM Emp E WHERE E.DeptNo=D.Dno);
+B. SELECT DISTINCT Name FROM Dept D WHERE NOT EXISTS (SELECT E.DeptNO FROM Emp E WHERE E.DeptNo=D.Dno);
+C. SELECT DISTINCT Name FROM Dept D WHERE D.Dno NOT IN (SELECT E.DeptNO FROM Emp E WHERE E.DeptNo=D.Dno);
+D. None of the options
+ANSWER: A
+Consider the functional dependencies given below: date_of_birth --> age,  age --> eligibility,  name --> rollno, rollno --> name. The relation (rollno, name, date_of_birth, age) is in:
+A. 2NF but not in 3NF
+B. 3NF and not in BCNF
+C. BCNF
+D. 1NF only
+ANSWER: D
+Consider a table Table1 with few rows. The statement "CREATE TABLE Table2 AS SELECT * FROM Table1”
+A. Copies all rows from Table1 to newly created Table2
+B. Creates Table2 that acts as a synonym for Table1
+C. Creates a dummy new table
+D. Creates an empty Table 2 that has same column definitions as Table1
+ANSWER: A
+One library has many student members and each student can become member of many libraries. Hence the cardinality between library and student is: 
+A. Many to Many
+B. Many to One
+C. One to Many
+D. One to One
+ANSWER: A
+Grade depends on Marks which in turn depends on Student's Register Number. This type of dependency of Marks on Register Number is called as________ 
+A. Partial dependency
+B. Transitive dependency
+C. Semi Functional dependency
+D. Full Functional dependency
+ANSWER: B
+What will be the output of the following SQLquery? SELECT Eno FROM Employee MINUS SELECT Sno FROM Customer;
+A. Displays the rows which are in Customer table but not in Employee table
+B. Displays the rows which are in Employee table but not in Customer table
+C. Displays rows that are in both tables
+D. Error in the statement
+ANSWER: B
+A relation has 3 attributes - Student, Course and Instructor. The functional dependencies are: (Student, Course)--> Instructor and (Instructor)--> Course. This relation is in ……………………
+A. 1 NF only
+B. 2 NF only
+C. 3 NF only
+D. Cannot be determined
+ANSWER: A
+Assume the table structure as follows and find the result of the query given below: EMP (ename, skill, job, basic) Primary key is (ename, skill). Query is “Select ename, skill from emp GROUP BY ename HAVING count(skill) > 1”
+A. Display rows for those employees who possess more than one skill
+B. Error
+C. Display only name column in the rows because of GROUP BY - HAVING clause
+D. Display name and skills column in the rows because of GROUP BY - HAVING clause
+ANSWER: B
+The restriction on the date of birth must be implemented with ………….. constraint when the aim is that for every employee the date of birth must be known. 
+A. Unique
+B. Not Null
+C. Check
+D. Foreign Key
+ANSWER: B
+A view is updatable if 
+A. DISTINCT is specified in the query used to create the view
+B. The FROM clause specifies only one source table
+C. The WHERE clause includes a subquery
+D. The query include a GROUP BY or HAVING
+ANSWER: B
+In a _________ relationship, separate tables must be created for participating entities and relationships, while converting ER model into relational schema.
+A. Many to Many
+B. One to Many
+C. One to One
+D. Many to One
+ANSWER: A
+Which of the following query will give the number of students who paid 10000 to 15000 as fee for the course?
+A. select count(*) from studentfee where feeamount in 10000 and 15000;
+B. select count(*) from studentfee where feeamount exists 10000 and 15000;
+C. select count(*) from studentfee where feeamount between(10000,15000);
+D. select count(*) from studentfee where feeamount between 10000 and 15000;
+ANSWER: D
+Which of the following statement is not correct?
+A. Select deptno, count(*) from emp where count(*) > 2 group by deptno;
+B. Select deptno, count(*) from emp group by deptno having count(*) > 2;
+C. Select deptno, count(*) from emp where job=’clerk’ group by deptno, job;
+D. Select deptno, count(*) from emp where job=’clerk’ group by deptno, job having count(*) > 2;
+ANSWER: A
+Employee table has 10 records. It has a non-NULL SALARY column which is also UNIQUE. SELECT COUNT (*) FROM EMPLOYEE WHERE SALARY > (SELECT SALARY FROM EMPLOYEE) will retrieve: 
+A. 10
+B. 9
+C. 5
+D. 0
+ANSWER: D

@@ -1,0 +1,357 @@
+Which of these in not a core datatype?
+A. Lists
+B. Dictionary
+C. Tuples
+D. Class
+ANSWER: D
+
+Which is the correct operator for power(x^y)?
+A. X^y
+B. X**y
+C. X^^y
+D. None of the mentioned
+ANSWER: B
+
+What is the order of precedence in python? I) Parentheses II) Exponential III) Division  IV) Multiplication  V) Addition  VI) Subtraction
+A. I,ii,iii,iv,v,vi
+B. II,i,iii,iv,v,vi
+C. II,i,iv,iii,v,vi
+D. I,ii,iii,iv,vi,v
+ANSWER: A
+
+Which of the following is true for variable names in Python?
+A. Unlimited length
+B. All private members must have leading and trailing underscores
+C. Underscore and ampersand are the only two special charaters allowed
+D. None
+ANSWER: A
+
+Which of the following is an invalid variable?
+A. my_string_1
+B. 1st_string
+C. foo
+D. _
+ANSWER: B
+
+Which of the following is an invalid statement?
+A. abc = 1,000,000
+B. a b c = 1000 2000 3000
+C. a,b,c = 1000, 2000, 3000
+D. a_b_c = 1,000,000
+ANSWER: B
+
+What does the function re.match do?
+A. Matches a pattern at the start of the string
+B. Matches a pattern at any position in the string
+C. Such a function does not exist
+D. None of the mentioned
+ANSWER: A
+
+What is the output of the following? 1. sentence = 'we are humans' 2. matched = re.match(r'(.*) (.*?) (.*)', sentence) 3. print(matched.group())
+A. ('we', 'are', 'humans')
+B. (we, are, humans)
+C. ('we', 'humans')
+D. 'we are humans'
+ANSWER: D
+
+What is going to be the output of the following? 1. sentence = 'we are humans' 2. matched = re.match(r'(.*) (.*?) (.*)', sentence) 3. print(matched.group(2))
+A. 'are'
+B. 'we'
+C. 'humans'
+D. 'we are humans'
+ANSWER: C
+
+What is the output of print 0.1 + 0.2 == 0.3?
+A. True
+B. False
+C. Machine dependent
+D. Error
+ANSWER: B
+
+What does ~~~~~~5 evaluate to?
+A. +5
+B. -11
+C. +11
+D. -5
+ANSWER: A
+
+What is the output of the following? 1.x = ['ab', 'cd'] 2.for i in x: 3.    i.upper() 4.print(x)
+A. ['ab', 'cd']
+B. ['AB', 'CD']
+C. [None, None]
+D. None of the mentioned
+ANSWER: A
+
+What is the output of the following? 1. i = 1 2. while True: 3.     if i%3 == 0: 4.         break 5.     print(i) 6.     i + = 1
+A. 1 2
+B. 1 2 3
+C. Error
+D. None of the mentioned
+ANSWER: C
+
+What is the output of the following? 1. True = False 2. while True: 3.     print(True) 4.     break
+A. True
+B. False
+C. None
+D. none of the mentioned
+ANSWER: D
+
+What is the output of the following? 1. x = "abcdef" 2. i = "a" 3. while i in x: 4.     x = x[1:] 5.     print(i, end = " ")
+A. a a a a a a
+B. a
+C. No output
+D. Error
+ANSWER: B
+
+What is the output of the following? 1. x = 'abcd' 2. for i in x: 3.     print(i) 4.     x.upper()
+A. a B C D
+B. a b c d
+C. A B C D
+D. Error
+ANSWER: B
+
+What is the output of the following? 1. x = 123 2. for i in x: 3.     print(i)
+A. 1 2 3
+B. 123
+C. Error
+D. None of the mentioned
+ANSWER: C
+
+What is the output of the following? 1. for i in range(5): 2.     if i == 5: 3.         break 4.     else: 5.         print(i) 6. else: 7.     print("Here")
+A. 0 1 2 3 4 Here
+B. 0 1 2 3 4 5 Here
+C. 0 1 2 3 4
+D. 1 2 3 4 5
+ANSWER: A
+
+What is the output when following code is executed ? 1. >>>print r"\nhello"
+A. A new line and hello
+B. \nhello
+C. The letter r and then hello
+D. Error
+ANSWER: B
+
+What is the output when following statement is executed ? 1. >>>print ('new' 'line')
+A. Error
+B. Output equivalent to print 'new\nline'
+C. newline
+D. new line
+ANSWER: C
+
+What is the output when following code is executed ? 1. >>>str1="helloworld" 2. >>>str1[::-1]
+A. dlrowolleh
+B. hello
+C. world
+D. helloworld
+ANSWER: A
+
+What is output of the following code ? 1. class tester: 2.     def __init__(self, id): 3.         self.id = str(id) 4.         id="224" 5.6. >>>temp = tester(12) 7. >>>print temp.id
+A. 224
+B. Error
+C. 12
+D. None
+ANSWER: C
+
+What is that you think the output of the following code ? 1. >>>example = "helle" 2. >>>example.find("e")
+A. Error
+B. -1
+C. 1
+D. 0
+ANSWER: C
+
+Suppose i is 5 and j is 4, i + j is same as
+A. i.__add(j)
+B. i.__add__(j)
+C. i.__Add(j)
+D. i.__ADD(j)
+ANSWER: B
+
+What is the output when following code is executed ? 1. names1 = ['Amir', 'Bear', 'Charlton', 'Daman'] 2. names2 = names1 3. names3 = names1[:] 4. 5. names2[0] = 'Alice' 6. names3[1] = 'Bob' 7. 8. sum = 0 9. for ls in (names1, names2, names3): 10.     if ls[0] == 'Alice': 11.         sum += 1 12.     if ls[1] == 'Bob': 13.         sum += 10 14. 15. print sum
+A. 11
+B. 12
+C. 21
+D. 22
+ANSWER: B
+
+What is the output when following code is executed ? 1. >>>"Welcome to Python".split()
+A. ['Welcome', 'to', 'Python']
+B. ('Welcome', 'to', 'Python')
+C. {'Welcome', 'to', 'Python'}
+D. 'Welcome', 'to', 'Python'
+ANSWER: A
+
+What is the output when following code is executed ? 1. myList = [1, 2, 3, 4, 5, 6] 2. for i in range(1, 6): 3.     myList[i - 1] = myList[i] 4. 5. for i in range(0, 6):  6.     print(myList[i], end = " ")
+A. 2 3 4 5 6 1
+B. 6 1 2 3 4 5
+C. 2 3 4 5 6 6
+D. 1 1 2 3 4 5
+ANSWER: C
+
+What is the output when following code is executed ? 1. def f(values): 2.     values[0] = 44 3. 4. v = [1, 2, 3] 5. f(v) 6. print(v)
+A. [1, 44]
+B. [1, 2, 3, 44] 
+C. [44, 2, 3]
+D. [1, 2, 3]
+ANSWER: C
+
+Suppose d = {'john':40, 'peter':45}, to obtain the number of entries in dictionary what command do we use
+A. d.size()
+B. len(d)
+C. size(d)
+D. d.len()
+ANSWER: B
+ 
+Suppose t = (1, 2, 4, 3), which of the following is incorrect?
+A. print(t[3])
+B. t[3] = 45
+C. print(max(t))
+D. print(len(t))
+ANSWER: B
+
+What will be the output? 1. >>>t = (1, 2, 4, 3, 8, 9) 2. >>>[t[i] for i in range(0, len(t), 2)]
+A. [2, 3, 9]
+B. [1, 2, 4, 3, 8, 9]
+C. [1, 4, 8]
+D. (1, 4, 8)
+ANSWER: C
+
+What will be the output? 1. numberGames = {} 2. numberGames[(1,2,4)] = 8 3. numberGames[(4,2,1)] = 10 4. numberGames[(1,2)] = 12 5. 6. sum = 0 7. for k in numberGames: 8.     sum += numberGames[k] 9. 10. print len(numberGames) + sum
+A. 30
+B. 24
+C. 33
+D. 12
+ANSWER: C
+
+What is the output of this program? 1. str = raw_input("Enter your input: "); 2. print ("Received input is : ", str)
+A. Enter your input: Hello Python Received input is : Hello Python
+B. Enter your input: Hello Python Received input is : Hello
+C. Enter your input: Hello Python Received input is : Python
+D. None of the mentioned
+ANSWER: A
+
+What is the output of the below program ? 1. x = 50 2. def func(x): 3.     print('x is', x) 4.     x = 2 5.     print('Changed local x to', x) 6. func(x) 7. print('x is still', x)
+A. x is still 50
+B. x is still 2
+C. x is still 100
+D. None of the mentioned
+ANSWER: A
+
+What is the output of this program? 1. y = 6 2. 3. z = lambda x: x * y 4. print z(8)
+A. 48
+B. 14
+C. 64
+D. None of the mentioned
+ANSWER: A
+
+What is the output of this program? 1. min = (lambda x, y: x if x < y else y) 2.  min(101*99, 102*98)
+A. 9997
+B. 9999
+C. 9996
+D. None of the mentioned
+ANSWER: C
+
+How many except statements can a try-except block have?
+A. zero
+B. one
+C. more than one
+D. more than zero
+ANSWER: D
+
+Is the following code valid? 1.try: 2.    # Do something 3.except: 4.    # Do something 5.else: 6.    # Do something
+A. No, there is no such thing as else
+B. No, else cannot be used with except
+C. No, else must come before except
+D. Yes
+ANSWER: D
+
+What is the output of the following? 1.try: 2.    if '1' != 1: 3.        raise "someError" 4.    else: 5.        print("someError has not occured") 6.except "someError": 7.    print ("someError has occured")
+A. SomeError has occured
+B. SomeError has not occured
+C. Invalid code
+D. None of the mentioned
+ANSWER: C
+
+What is the output of the following code? 1.def foo(): 2.    total += 1 3.    return total 4.total = 0 5.print(foo())
+A. 0
+B. 1
+C. Error
+D. None of the mentioned
+ANSWER: C
+
+Which type of elements are accepted by random.shuffle()?
+A. Strings
+B. Lists
+C. Tuples
+D. Integers
+ANSWER: B
+
+What gets printed? 1.def f(): pass 2.print type(f())
+A. <type 'function'> 
+B. <type 'tuple'> 
+C. <type 'NoneType'>
+D. <type 'str'> 
+E. <type 'type'>
+ANSWER: C
+
+What is the output of the below program? 1.a = [1,2,3,None,(),[],] 2.print len(a)
+A. syntax error 
+B. 4
+C. 5
+D. 6
+E. 7
+ANSWER: D
+
+What gets printed by the code below? 1.class Person: 2.    def __init__(self, id): 3.        self.id = id 4.obama = Person(100) 5.obama.__dict__['age'] = 49 6.print obama.age + len(obama.__dict__)
+A. 1
+B. 2
+C. 49
+D. 50
+E. 51
+ANSWER: E
+
+Assuming the filename for the code below is /usr/lib/python/person.py and the program is run as: python /usr/lib/python/person.py What gets printed? 1.class Person: 2.    def __init__(self)  3.        pass 4.    def getAge(self): 5.        print __name__ 6. 7.p = Person() 8.p.getAge()
+A. Person 
+B. getAge
+C. usr.lib.python.person 
+D. __main__ 
+E. An exception is thrown 
+ANSWER: D
+
+What gets printed? 1.confusion = {} 2.confusion[1] = 1 3.confusion['1'] = 2 4.confusion[1] += 1 5. 6.sum = 0 7.for k in confusion: 8.    sum += confusion[k] 9. 10.print sum
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+ANSWER: D
+
+How do you create a package so that the following reference will work? 1.p = mytools.myparser.MyParser()
+A. Declare the myparser package in mytools.py 
+B. Create an __init__.py in the home dir 
+C. Inside the mytools dir create a __init__.py and myparser.py
+D. Create a myparser.py directory inside the mytools directory 
+E. This can not be done
+ANSWER: C
+
+What gets printed? 1.x = sum(range(5)) 2.print x
+A. 4
+B. 5
+C. 10
+D. 15
+E. An exception is thrown 
+ANSWER: C
+
+What gets printed? 1.aList = [1,2] 2.bList = [3,4] 3.kvps = { '1' : aList, '2' : bList } 4.theCopy = kvps.copy() 5.kvps['1'][0] = 5 6.sum = kvps['1'][0] + theCopy['1'][0] 7.print sum
+A. 1
+B. 2
+C. 6
+D. 10
+E. An exception is thrown 
+ANSWER: D
+
+What does os.name contain? 
+A. The name of the operating system dependent module imported
+B. The address of the module os
+C. Error, it should've been os.name()
+D. None of the mentioned
+ANSWER: A

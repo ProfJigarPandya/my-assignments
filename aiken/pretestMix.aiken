@@ -1,0 +1,306 @@
+Which are the instructions that are not getting translated but acts as a directive?
+A. Logical instructions
+B. Pseudo instructions
+C. Data transfer instructions
+D. Comments
+ANSWER: B
+Which type of addressing mode is this, ADD R1, #50H?
+A. Implied
+B. Indirect
+C. Immediate
+D. Direct
+ANSWER: C
+Calculate average waiting time with respect to preemptive priority scheduling. Process CPU Time Priority Arrival Time P1 12 3 0  P2 2 1 0  P3 5 2 1 P4 2 5 4 P5 7 2 2 (Priority 1 being lowest priority).
+A. 8.4
+B. 9.2
+C. 8.6
+D. 8.8
+ANSWER: A
+Calculate the average turnaround time of process, using SJF scheduling, (all jobs arrive at same time). Consider arrival for all processes at 0th time.Process CPU Time p1 8 p2 4 p3 9
+A. 12.33
+B. 12.66
+C. 7.6
+D. 14.6
+ANSWER: A
+Internal Fragmentation occurs in which of the following memory management schemes?
+A. Variable partitioned allocation
+B. Single-Contiguous Allocation
+C. Fixed-Partition Allocation
+D. Segmented Partition
+ANSWER: C
+Round robin scheduling is essentially the preemptive version of _________ algorithm.
+A. LIFO
+B. FCFS
+C. FILO
+D. Longest time first
+ANSWER: B
+Suppose the total no. of frames in the main memory is 3 and page no. 2 is already present in the main memory. After that, the pages requested are 2 6 5 2 9 5 2 6 7 2 4 5 . If page replacement algorithm used is FIFO, calculate the total no. of page faults.
+A. 8
+B. 9
+C. 7
+D. 10
+ANSWER: A
+The memory address of the first element of an array is called __________________________.
+A. floor address
+B. first address
+C. Ceil address
+D. base address
+ANSWER: D
+Which of the following is NOT the required condition for binary search algorithm?
+A. The list must be sorted
+B. There should be the direct access to the middle element in any sublist
+C. There must be mechanism to delete and/or insert elements in list
+D. All the above choices
+ANSWER: C
+Which of the following data structure CANNOT store the non-homogeneous data elements?
+A. Arrays
+B. Records
+C. Pointers
+D. Files
+ANSWER: A
+The difference between linear array and a record is 
+A. An array is suitable for homogeneous data but the data items in a record may have different data type
+B. In a record, there may not be a natural ordering in opposed to linear array
+C. A record form a hierarchical structure but a linear array does not
+D. All of above
+ANSWER: D
+In a Linked list, START is the starting node in linked list. When START = NULL, it means _____________________.
+A. Saturated
+B. Underflow
+C. Overflow
+D. Houseful
+ANSWER: B
+Which of the following is NOT a property of an Algorithm?
+A. Finiteness
+B. Definiteness
+C. Effectiveness
+D. UI interface
+ANSWER: D
+Which of the following is NOT the property of the Raptor tool?
+A. Open source
+B. Drawing and executing flowcharts
+C. Minimizes the syntax
+D. Does not build the logic of the Programming
+ANSWER: D
+Which of the following statements are TRUE with respect to Arrays and Linked list? i) Arrays can be accessed sequentially / randomly ii) Insertion of an element is possible only if unfilled location is available iii) Elements of linked list can be accessed in sequential order only iv) The link part of the last node in linked list does not contain NULL
+A. Only i and iv
+B. Only i , ii and iv
+C. All are TRUE
+D. Only i, ii and iii
+ANSWER: D
+How many passes should be made in improved Bubble Sort, if the input array is already sorted? (Array Contains 'n' Elements).
+A. 0
+B. 1
+C. N
+D. N-1
+ANSWER: B
+Identify the incorrect declaration statement.
+A. int score[100]; 
+B. float average[row],[column];  
+C. int sum[] = {1,2}; 
+D. char name[15][15]; 
+ANSWER: B
+If the size of the array is less than the number of initializers, then
+A. Extra values are being ignored
+B. Generates an error message
+C. Size of array is increased
+D. Size is neglected when values are given
+ANSWER: A
+Predict output of the following code: #include<stdio.h> main() { char str[] = "Hello"; str[3] = '\0'; printf("%s",str); }
+A. Hell
+B. Hello
+C. He
+D. Hel
+ANSWER: D
+The variable count has the value 6, and the array x contains the following values 23 12 13 17 23 19 What is the value of m after the following code is executed? m=0; for(i=0;i<count;i++) if(x[i] > x[m]) m=i;
+A. 0
+B. 1
+C. 4
+D. 5
+ANSWER: A
+What is the result in the variable str3 after execution of the following statements? char str2[] = {“Books”}; char str3[20] = {“Fair”}; strcat(str3,str2);
+A. "Books Fair"
+B. "BooksFair"
+C. "Fair Books"
+D. "FairBooks"
+ANSWER: D
+Which of the following statements will correctly store the concatenation of strings str1 and str2 in string str3 ?
+A. str3 = strcat(str1,str2);
+B. strcat(str1,str2,str3);
+C. strcat(str3,str2,str1);
+D. strcpy(str3,strcat(str1,str2));
+ANSWER: D
+Predict output of the following code: #include <stdio.h> #define CONST1 5 #define CONST2 CONST1 * CONST1 #define CONST3 CONST2 + CONST2 void main(){ printf("%d\n", CONST3); }
+A. 5
+B. Compilation Error due to multiple preprocessor statements
+C. 50
+D. 25
+ANSWER: C
+What is the output of the following? #include <stdio.h> void main(){ int i = 10; if (i == 10){ printf("True "); break; } else{ printf("False "); } printf("Ok "); }
+A. True False Ok
+B. All other choices are wrong
+C. True
+D. True Ok
+ANSWER: B
+What is the output of the following? #include <stdio.h> int funRecur(int i) { if (i < 0) return 1; else return(funRecur(i-1) * (2 + 3 + i)); } main( ) { int i = 2; int res; res = funRecur(i); printf("%d",res); }
+A. 1
+B. 42
+C. 210
+D. Infinite loop
+ANSWER: C
+What is the output of the following? #include <stdio.h> main() { int iNum1 = 1; int iNum2 = 2; do { do { iNum2 = iNum2 * iNum2; iNum1 = iNum1 + 1; }while( iNum2 < 20); }while(iNum2 <= 256);  printf("%d", iNum1); }
+A. 6
+B. 5
+C. 7
+D. 4
+ANSWER: B
+What is the output of the following? #include <stdio.h>  main() { int num=345; do { printf("%d", num % 10); num /= 10; } while (num > 0); }
+A. 345
+B. 354
+C. 543
+D. Syntax Error in printf()
+ANSWER: C
+The predefined function in C that is used to compare two strings is:
+A. strlen
+B. strcat
+C. strcpy
+D. strcmp
+ANSWER: D
+Which of the following is an illegal value for the case statement in a switch block?
+A. 1.0
+B. 'a'
+C. 100
+D. -200
+ANSWER: A
+Test Case design which ensures that every path in the program is executed at least once is:
+A. Random Generation
+B. Equivalence Partitioning
+C. Logic Coverage
+D. Boundary Value Analysis
+ANSWER: C
+What is the output of the following?  #include <stdio.h> main() { int ispeed=75, ifine; if (ispeed > 35) ifine = 20.0; else if (ispeed > 50)  ifine = 40.00; else if (ispeed > 75)  ifine = 60.00; printf("%d", ifine); }
+A. 20.0
+B. 40.00
+C. 20
+D. 60.00
+ANSWER: C
+In OOP, the concept of ______ provides the idea of reusability.
+A. Polymorphism
+B. Inheritance
+C. Abstraction
+D. Encpasulation
+ANSWER: B
+Ability of a function or operator to act in different ways on different data types is called _____.
+A. Data Modeling
+B. Data Design
+C. Polymorphism
+D. Encapsulation
+ANSWER: C
+A new lab is constructed in a college. And it is inaugurated by an eminent scientist who is working in ISRO. What are the possible relationships between the objects?
+A. is-a and uses-a
+B. uses-a and has-a
+C. is-a and has-a
+D. is-a, has-a and uses-a
+ANSWER: C
+Resources, library and labs in a college can be used only by the students of that college. No other students are allowed to use that even though they are studying the same course in some other good college. Which OO concept is represented here?
+A. Polymorphism
+B. Abstraction
+C. Encapsulation
+D. Inheritance
+ANSWER: C
+Bundling data and methods together is called ______.
+A. Data hiding
+B. Package
+C. Data abstraction
+D. Encapsulation
+ANSWER: D
+What is the output of the following code? class ifdemo { public static void main(String args[]) { int result=1; if (result = 1 ) { System.out.println("True"); } else { System.out.println("False"); } } } 
+A. True
+B. False
+C. Compilation Error due to Incompatible types
+D. True False
+ANSWER: C
+What would be the output of this Code snippet? class CheckIt{ int Number; private CheckIt() { Number=0; 	} CheckIt(int val)  { this(); Number =val; } } public class CheckDemo{ public static void main(String args[]) { CheckIt ref=new CheckIt(); System.out.println("Created object of CheckIt");  } } 
+A. Compilation error due to private in default constructor
+B. Will print 'Created object of CheckIt'
+C. Cannot use this() inside the constructor
+D. Runtime error
+ANSWER: A
+What would the output of this Code snippet? class Customer{ private int customerId; private String customerName;  private long contactNos[]=new long[3]; private static int counter=1000;public Customer(){ this("John",9980788712L,9886124566L,9496781256L); customerId=++counter; } public Customer(String customerName, long teleNo1, long teleNo2, long teleNo3){ this.customerName=customerName; contactNos[0]=teleNo1; contactNos[1]=teleNo2; contactNos[2]=teleNo3; } public int getCustomerId(){ return customerId; } public String getCustomerName(){ return customerName;  } public long[] getContactNos(){ return contactNos; } } class ConOverloading1{ public static void main(String args[]){ Customer custObj2= new Customer();  System.out.println("Customer Id:"+custObj2.getCustomerId()); System.out.println("Customer Name:"+custObj2.getCustomerName()); long contactNos[]=new long[3]; contactNos=custObj2.getContactNos(); System.out.println("Contact Nos:"+contactNos[0]+" "+contactNos[2]+" "+contactNos[1]); } }
+A. Compilation error due to this() invocation in default constructor
+B. Will print Customer Name: John Contact Nos:9980788712 9886124566 9496781256
+C. Compilation error due to return type as an array in getContactNos()
+D. Will print Customer Id:1001  Customer Name:John Contact Nos:9980788712 9496781256 9886124566
+ANSWER: D
+What is the output of this Code snippet? interface TestInterface{ void functionOne(); void functionTwo(); } public class InterfaceDemo implements TestInterface{ public void functionOne() {  System.out.println("Inside function One"); } public void functionTwo() { System.out.println("Inside function Two"); } public static void main(String args[]) { TestInterface ref =new TestInterface(); ref.functionTwo(); } }
+A. No output
+B. Compile time error due to instantiation of TestInterface
+C. Will print 'Inside function Two'
+D. Will print 'Inside function One' , 'Inside function Two'
+ANSWER: B
+Which statement is erroneous in the following code? class A{ public void functionOne() { System.out.println("Inside A"); } public void functionTwo()  { System.out.println("Inside A for second time"); } } public class B extends A { protected void functionOne() //1 { System.out.println("Inside B"); } protected void functionThird() //2 { System.out.println("Inside B"); } public static void main(String args[]) { A ref=new B(); ref.functionTwo();//3 ref.functionThird(); //4 } } 
+A. statements 2,3
+B. statements 4,3
+C. statements 1,4
+D. statement 1,3,4
+ANSWER: C
+Consider the following query: SELECT MAX(Sal) FROM emp WHERE sal < (SELECT MAX(sal)  FROM emp WHERE sal < (SELECT MAX(sal) FROM emp)); 
+A. Error due to conditions in Where clause
+B. Displays Third highest Sal from emp table
+C. Multiple rows of sal
+D. Second highest Sal from emp table
+ANSWER: B
+Consider the relation PRESCRIPTION (Doc#, Pat#, Medicine, DocName, PatName) Primary Key: Doc#, Pat# The functional dependencies are: Doc# -> DocName Pat# -> PatNam Which highest normal form is this relation in ?
+A. 2NF
+B. 1NF
+C. 3NF
+D. BCNF
+ANSWER: B
+Deferred and Immediate Update Scheme are related to: 
+A. Transaction
+B. Log based recovery
+C. Locking
+D. Time stamping
+ANSWER: B
+During the transfer of money from one account to the other there are two operations, withdrawal from one account and deposit into the other. Either both of them must happen or neither. Which Property of transaction states this?
+A. Durability
+B. Isolation
+C. Correctness
+D. Atomicity
+ANSWER: D
+For every row of the outer query, the inner query gets executed. This is TRUE in the case of:
+A. Query using OR condition
+B. Correlated sub query
+C. Independent sub query
+D. Query using AND condition
+ANSWER: B
+Consider the following query :  SELECT job, AVG (sal) FROM emp GROUP BY job; 
+A. Error in Group by clause
+B. Displays job of each emp and relates with his salary
+C. Displays Job for each emp and average salary of all Jobs
+D. Displays average salary for each job
+ANSWER: D
+Which of the given options describes the properties associated with entities?
+A. Attributes
+B. Rules
+C. Tuple
+D. Domains
+ANSWER: A
+Which of the following statements is most applicable to this code: CREATE TABLE CUSTOMER ( CUSTOMER_ID NUMBER (5), CUSTOMER_NAME VARCHAR2 (40), ZIP NUMBER (5)) AS SELECT CUST_ID, NAME, ZIP_CODE FROM CUSTOMERS; 
+A. Column datatypes should not be specified when creating a table from another table
+B. When creating a new table from an existing table, you cannot specify a different column name
+C. The code will create a table named CUSTOMER
+D. ZIP is a reserved word and cannot be used as a column name
+ANSWER: A
+Consider the following Query: create table Employee ( EmployeeID decimal(9,0) constraint drug_ID_null check ( EmployeeID is not null ), EmpName varchar2(32), stream varchar2(32) default 'Generic' ); 
+A. Gives error, because NOT NULL cannot be used in check constraint
+B. Decimal 9,0 with NOT NULL check constraint is not allowed
+C. Gives syntax error since default string Generic is placed within single quotes
+D. An Employee table is created with NOT NULL constraint on EmployeeID column
+ANSWER: D
+In the company directory database, you have created an index based on last name of employees. Referring to the scenario, when is it beneficial to create this kind of index?
+A. There is no special condition required
+B. When most people in the directory have the same last name
+C. When most people in the directory have different and unique last name
+D. When most people in the directory have null values for last name
+ANSWER: C

@@ -1,0 +1,53 @@
+Design and Implement an email inbox.
+
+Features:
+
+Mandatory:
+
+(1) Insert a new email to mimic incoming email.
+
+
+Any one from following (2,3,4):
+
+(2) Support following types of views
+
+Default:
+	Show tabular fashion as below:
+		EmailNo. Starred Or Not. Important or Not. Read or Unread. Sender. Subject. Date and Time.
+
+Important First:
+	Important messages list: 
+		EmailNo. Starred Or Not. Read or Unread. Sender. Subject. Date and Time.
+	Everything Else:
+		EmailNo. Starred Or Not. Read or Unread. Sender. Subject. Date and Time.
+
+Unread First:
+	Unread messages list: 
+		EmailNo. Starred Or Not. Important or Not. Sender. Subject. Date and Time.
+	Everything Else:
+		EmailNo. Starred Or Not. Important or Not. Sender. Subject. Date and Time.
+
+Starred First:
+	Starred messages list: 
+		EmailNo. Important or Not. Read or Unread. Sender. Subject. Date and Time.
+	Everything Else:
+		EmailNo. Important or Not. Read or Unread. Sender. Subject. Date and Time.
+
+(3) Support search for an email via sender of the email and use default view to display "Match found" emails. 
+    No match found otherwise. Searching has to be efficient.
+
+(4) 4.1.
+    Delete email by email number.
+	Store all the deleted emails in "Trash" such a way that "Undo delete" operation recovers the last most deleted email every time you press opt for undo delete.
+
+    4.2 
+    Undo delete.
+
+
+Email numbers are increasing order sequence number starting 1 unique for each email.
+
+Use virtual timestamp again an incresing order sequence number to store date and time.
+
+You must use linked representation of nodes to store data.
+
+Finally, think of prose and cons of data structures selected by you for chosen feature.

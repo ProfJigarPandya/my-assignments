@@ -1,0 +1,31 @@
+Design and Implement a Media Player.
+
+Features:
+
+Mandatory:
+
+(1) Import a new song to Songs Library.
+
+Any one from following (2,3):
+
+
+(2) Play song.
+	Find and display lyric and other information of chosen song based on song id. Search must be efficient.
+
+	Maintein a list of recently played song and make it available when requested. 
+	If user choose to play from recently played song, that song moves to top of recent list.
+
+
+(3) Allow to create playlist(s) of song(s) with a playlist name using song id. 
+    Only songs from the library can be inserted into playlist. 
+
+    Display all playlists tabular with content. 
+	Song ID, Song Name, Singer Name, Total playing time.
+
+	 Allow to mark a song as favourite (Favourite level   	1,2,3,4,5). Display all songs sorted by favourite levels 	higher on top.
+
+
+
+You must use linked representation of nodes to store data.
+
+Finally, think of prose and cons of data structures selected by you for chosen feature.
